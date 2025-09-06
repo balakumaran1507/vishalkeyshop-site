@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Keys - Professional Locksmith Services in Chennai | Key Duplication, Car Keys, Smart Locks</title>
+    <meta name="description" content="Chennai's top locksmith service for professional key making, lock repair, car key programming, and smart lock solutions. Unlocking security, unlocking trust with Vishal Key Shop.">
+    <meta name="keywords" content="locksmith Chennai, key making Chennai, key duplication Chennai, lock repair Chennai, car keys Chennai, smart locks Chennai, security Chennai">
+    <meta name="author" content="Vishal Key Shop">
+    <link rel="icon" href="logo.jpeg" type="image/jpeg">
+    <meta property="og:title" content="Vishal Key Shop - Professional Key & Locksmith Services">
+    <meta property="og:description" content="Unlocking security, unlocking trust with Vishal Key Shop in Chennai, Tamil Nadu. We offer a full range of key making, lock repair, and car key programming services.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1579783902677-2f3b7f2f1f0a">
+    <meta property="og:url" content="https://www.vishalkeyshop.com">
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style type="text/css">
+        :root {
+            --primary-bg: rgb(205, 178, 255);
+            --secondary-bg: #273a58;
+            --accent-color: #874da1;
+            --accent-bright: #8B5CF6;
+            --accent-light: #A78BFA;
+            --text-dark: #ffffff;
+            --text-medium: #ffffff;
+            --text-light: #655a83;
+            --success: #10B981;
+            --warning: #F59E0B;
+            --bright-blue: #3B82F6;
+            --bright-purple: #8B5CF6;
+            --bright-orange: #F97316;
+            --gradient-start: #1702ff;
+            --gradient-mid: #3d02a1;
+            --gradient-end: #001aff;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-medium);
+            min-height: 100vh;
+            overflow-x: hidden;
+            padding-bottom: 70px;
+        }
+
+        .hero-text {
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% auto;
+            animation: gradientText 3s ease-in-out infinite;
+        }
+
+        @keyframes gradientText {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Enhanced Hero background animation */
+        .hero-bg-animation {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .hero-bg-animation::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background: 
+                radial-gradient(circle at 25% 25%, rgba(67, 56, 202, 0.2) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(124, 58, 237, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 50% 10%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: translate(-50%, -50%) rotate(0deg); }
+            to { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        /* Futuristic grid animation for hero */
+       
+
+        @keyframes gridPulse {
+            0%, 100% { opacity: 0.2; }
+            50% { opacity: 0.5; }
+        }
+
+        /* New particle animation for hero */
+        .particles-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .particle {
+            position: absolute;
+            background: linear-gradient(135deg, var(--bright-purple), var(--bright-blue));
+            border-radius: 50%;
+            opacity: 0.3;
+            animation: floatParticle 15s infinite linear;
+        }
+
+        @keyframes floatParticle {
+            0% {
+                transform: translateY(0) translateX(0) rotate(0deg);
+                opacity: 0.3;
+            }
+            25% {
+                transform: translateY(-20vh) translateX(10vw) rotate(90deg);
+                opacity: 0.5;
+            }
+            50% {
+                transform: translateY(0) translateX(20vw) rotate(180deg);
+                opacity: 0.3;
+            }
+            75% {
+                transform: translateY(20vh) translateX(10vw) rotate(270deg);
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(0) translateX(0) rotate(360deg);
+                opacity: 0.3;
+            }
+        }
+
+        /* Floating elements animation */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .hero-services-vertical {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            margin: 24px 0;
+        }
+
+        .hero-service-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(30, 41, 59, 0.95);
+            padding: 12px 20px;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(183, 141, 255, 0.25);
+            animation: fadeInUp 0.6s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+            color: var(--text-medium);
+        }
+
+        .hero-service-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(124, 58, 237, 0.4);
+        }
+
+        .hero-service-item:nth-child(1) { animation-delay: 0.2s; }
+        .hero-service-item:nth-child(2) { animation-delay: 0.4s; }
+        .hero-service-item:nth-child(3) { animation-delay: 0.6s; }
+        .hero-service-item:nth-child(4) { animation-delay: 0.8s; }
+        .hero-service-item:nth-child(5) { animation-delay: 1s; }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .professional-card {
+            background-color: var(--secondary-bg);
+            border: 1px solid #334155;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            color: var(--text-medium);
+        }
+        
+        .professional-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-bright), var(--accent-color));
+            box-shadow: 极 4px 15px rgba(124, 58, 237, 0.4);
+            transition: all 0.3s ease;
+            color: white;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(124, 58, 237, 0.5);
+            background: linear-gradient(135deg, var(--accent-color), var(--accent-bright));
+        }
+
+        .btn-secondary {
+            background: var(--secondary-bg);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            color: var(--text-dark);
+            border-radius: 12px;
+            font-weight: 600;
+            border: 1px solid #334155;
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            background: #1e293b;
+        }
+        
+        .section-padding {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% auto;
+            animation: gradientText 3s ease-in-out infinite;
+        }
+        
+        .list-item-icon {
+            color: var(--accent-bright);
+        }
+        
+        .smooth-transition {
+            transition: all 0.3s ease;
+        }
+        
+        .focus-outline:focus {
+            outline: 2px solid var(--accent-bright);
+            outline-offset: 2px;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+        }
+
+        .map-container {
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        /* Enhanced sticky contact bar */
+        .sticky-contact-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: var(--secondary-bg);
+            box-shadow: 0 -4px 20px rgba(159, 118, 118, 0.3);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 14px 16px;
+            backdrop-filter: blur(10px);
+            background-color: rgba(30, 41, 59, 0.95);
+        }
+        
+        .sticky-contact-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: var(--text-medium);
+            font-size: 12px;
+            flex: 1;
+        }
+        
+        .sticky-contact-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 6px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .sticky-contact-icon.contact {
+            background: linear-gradient(135deg, var(--accent-bright), var(--accent-color));
+            color: white;
+            animation: pulse-purple 2s infinite;
+        }
+        
+        .sticky-contact-icon.map {
+            background: linear-gradient(135deg, #EF4444, #DC2626);
+            color: white;
+            animation: pulse-red 2s infinite;
+        }
+        
+      .sticky-contact-icon.whatsapp {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+    animation: whatsapp-pulse 2s infinite;
+}
+        
+        .sticky-contact-item:hover .sticky-contact-icon {
+            transform: translateY(-5px) scale(1.1);
+            animation: none;
+        }
+        
+        .sticky-contact-text {
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        /* Enhanced pulse animations */
+        @keyframes pulse-purple {
+            0% {
+                box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 12px rgba(124, 58, 237, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(124, 58, 237, 0);
+            }
+        }
+
+        @keyframes pulse-red {
+            0% {
+                box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 12px rgba(239, 68, 68, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+            }
+        }
+        
+        @keyframes whatsapp-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 12px rgba(37, 211, 102, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
+
+        /* Service highlight section */
+        .service-highlight {
+            background: linear-gradient(135deg, var(--primary-bg) 0%, #312e81 100%);
+            border-radius: 20px;
+            padding: 2.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-highlight::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(67, 56, 202, 0.15) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+
+        /* Feature card enhancements */
+        .feature-card {
+            transition: all 0.4s ease;
+            border-left: 4px solid var(--accent-bright);
+        }
+
+        .feature-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Testimonial enhancements */
+        .testimonial-card {
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 60px;
+            color: var(--accent-light);
+            opacity: 0.2;
+            font-family: serif;
+            line-height: 1;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Stats counter */
+        .stat-number {
+            font-size: 1.7rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--accent-bright), var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: white;
+            background-clip: text;
+        }
+
+        /* New bright elements */
+        .bright-accent {
+            background: linear-gradient(135deg, var(--bright-purple), var(--bright-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: white;
+            background-clip: text;
+        }
+
+        .bright-bg {
+            background: linear-gradient(135deg, rgba(49, 4, 68, 0.6), rgba(17, 3, 43, 0.1));
+        }
+
+        .shine-effect {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .shine-effect::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                to bottom right,
+                rgba(144, 119, 255, 0) 0%,
+                rgba(255, 255, 255, 0.152) 50%,
+                rgba(255, 255, 255, 0) 100%
+            );
+            transform: rotate(30deg);
+            animation: shine 3s infinite;
+        }
+
+        @keyframes shine {
+            0% { transform: translateX(-100%) rotate(30deg); }
+            100% { transform: translateX(100%) rotate(30deg); }
+        }
+
+        /* Enhanced map styling */
+        .map-wrapper {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .map-wrapper:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Improved contact icons */
+        .contact-icon-wrapper {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .contact-icon-wrapper:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            transform: translateX(5px);
+        }
+
+        /* Futuristic animated background */
+        .futuristic-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.1;
+            pointer-events: none;
+        }
+
+        .cyber-line {
+            position: absolute;
+            background: linear-gradient(90deg, transparent, var(--accent-bright), transparent);
+            height: 1px;
+            animation: cyberLine 10s linear infinite;
+        }
+
+        @keyframes cyberLine {
+            0% {
+                transform: translateX(-100%) scaleX(0);
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateX(200%) scaleX(1);
+                opacity: 0;
+            }
+        }
+
+        .cyber-dot {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: var(--accent-bright);
+            box-shadow: 0 0 10px 2px var(--accent-bright);
+            animation: cyberDot 15极 linear infinite;
+        }
+
+        @keyframes cyberDot {
+            0% {
+                transform: translateY(0) translateX(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) translateX(100vw);
+                opacity: 0;
+            }
+        }
+
+        /* Enhanced gradient titles */
+        .gradient-title {
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% auto;
+            animation: gradientText 3s ease-in-out infinite;
+        }
+
+        /* Enhanced section backgrounds */
+        .section-bg {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .section-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 80%, rgba(67, 56, 202, 0.05) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(124, 58, 237, 0.05) 0%, transparent 50%);
+            z-index: -1;
+        }
+
+        /* Enhanced hero section */
+        .hero-section {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(67, 56, 202, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(124, 58, 237, 0.1) 0%, transparent 40%);
+            z-index: -1;
+        }
+
+        /* Stats highlight section */
+        .stats-highlight {
+    background: linear-gradient(135deg, rgba(68, 56, 202, 0.644), rgba(124, 58, 237, 0.605));
+    border-radius: 16px;
+    padding: 1.5rem;
+    border: 1px solid rgba(93, 0, 255, 0.44);
+    box-shadow: 0 8px 25px rgba(194, 41, 237, 0.438);
+    position: relative;
+    overflow: hidden;
+}
+
+        .stats-highlight::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at top right, rgba(124, 58, 237, 0.668), transparent 70%);
+            z-index: 0;
+        }
+
+        .stat-item {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="root" class="overflow-x-hidden"> </div>
+    
+    <!-- Futuristic background animation -->
+    <div class="futuristic-bg" id="cyberBackground"></div>
+    
+    <div class="sticky-contact-bar">
+        <a href="tel:+916369972889" class="sticky-contact-item">
+            <div class="sticky-contact-icon contact">
+                <i class="fas fa-phone-volume fa-lg"></i>
+            </div>
+            <span class="sticky-contact-text">Call Now</span>
+        </a>
+        
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Vishal+Key+Shop+no.18,vetri+nagar,puthagaram,water+canal+road,kolathur,chennai-600099" target="_blank" class="sticky-contact-item" rel="noopener noreferrer">
+            <div class="sticky-contact-icon map">
+                <i class="fas fa-map-marker-alt fa-lg"></i>
+            </div>
+            <span class="sticky-contact-text">Directions</span>
+        </a>
+        
+        <a href="https://wa.me/916369972889?text=Hello! I'm interested in your locksmith services in Chennai." target="_blank" class="sticky-contact-item">
+            <div class="sticky-contact-icon whatsapp">
+                <i class="fab fa-whatsapp fa-lg"></i>
+            </div>
+            <span class="sticky-contact-text">WhatsApp</span>
+        </a>
+    </div>
+    
+    <script type="text/babel">
+        const contactDetails = {
+            mobile: "+91 6369972889",
+            mobile2: "+91 9840797080",
+            whatsapp: "916369972889",
+            email: "vishalkeyshop123@gmail.com",
+            address: "No 18, Vetri Nagar, Kolathur, Puthagaram, Chennai, Tamil Nadu 600099",
+            instagram: "https://www.instagram.com/vishal_key_shop?utm_source=qr&igsh=MWNhaDZjZXFpcGd6Yw==",
+            mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.602167448208!2d80.20338787595603!3d13.064235813353597!2m3!1f0!2f0!3f0!3m2极1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52665e3176b6b7%3A0x772d12e8c205b38d!2sVishal%20Key%20Shop!5e0!3m2!1sen!2sin!4v1700676451000!5m2!1sen!2sin"
+        };
+
+        const servicesList = [
+            { name: 'Key Duplication', icon: 'fa-key' },
+            { name: 'Lock Repair', icon: 'fa-unlock' },
+            { name: 'Car Keys', icon: 'fa-car' },
+            { name: 'Smart Locks', icon: 'fa-fingerprint' },
+            { name: 'Emergency Locksmith', icon: 'fa-phone' },
+        ];
+        
+        const mapLocation = "Vishal+Key+Shop+no.18,vetri+nagar,puthagaram,water+canal+road,kolathur,chennai-600099";
+
+        // Create cyber background elements
+        function createCyberBackground() {
+            const container = document.getElementById('cyberBackground');
+            if (!container) return;
+            
+            // Create cyber lines
+            for (let i = 0; i < 20; i++) {
+                const line = document.createElement('div');
+                line.classList.add('cyber-line');
+                line.style.top = `${Math.random() * 100}%`;
+                line.style.left = `${Math.random() * 100}%`;
+                line.style.width = `${20 + Math.random() * 100}%`;
+                line.style.animationDelay = `${Math.random() * 10}s`;
+                container.appendChild(line);
+            }
+            
+            // Create cyber dots
+            for (let i = 0; i < 30; i++) {
+                const dot = document.createElement('div');
+                dot.classList.add('cyber-dot');
+                dot.style.top = `${Math.random() * 100}%`;
+                dot.style.left = `${Math.random() * 100}%`;
+                dot.style.animationDelay = `${Math.random() * 15}s`;
+                container.appendChild(dot);
+            }
+        }
+
+        function ErrorBoundary({ children }) {
+            const [hasError, setHasError] = React.useState(false);
+            const [error, setError] = React.useState(null);
+
+            React.useEffect(() => {
+                const handleErrors = (error, errorInfo) => {
+                    console.error('ErrorBoundary caught an error:', error, errorInfo.componentStack);
+                    setHasError(true);
+                    setError(error);
+                };
+                window.addEventListener('error', handleErrors);
+                return () => window.removeEventListener('error', handleErrors);
+            }, []);
+
+            if (hasError) {
+                return (
+                    <div className="min-h-screen flex items-center justify-center bg-gray-900">
+                        <div className="text-center">
+                            <h1 className="text-2xl font-bold text-white mb-4">Something went wrong</h1>
+                            <p className="text-gray-400 mb-4">We're sorry, but something unexpected happened.</p>
+                            <button
+                                onClick={() => window.location.reload()}
+                                className="btn-primary px-6 py-3 rounded-lg text-white font-semibold"
+                            >
+                                Reload Page
+                            </button>
+                        </div>
+                    </div>
+                );
+            }
+            return children;
+        }
+
+         function Header({ activeSection }) {
+    const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+    const scrollToSection = (sectionId) => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+      setIsMenuOpen(false);
+    };
+
+    const navItems = [
+      { id: "home", label: "Home", path: "/" },
+      { id: "about", label: "About", path: "/#about" },
+      { id: "services", label: "Services", path: "/#services" },
+      { id: "testimonials", label: "Reviews", path: "/#testimonials" },
+      { id: "contact", label: "Contact", path: "/#contact" },
+    ];
+
+    return (
+      <header
+        className="fixed top-0 w-full z-50 professional-card"
+        data-name="header"
+        style={{
+          background: "rgba(30, 41, 59, 0.95)",
+          backdropFilter: "blur(10px)",
+        }}
+      >
+        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            <div
+              className="flex items-center space-x-2 cursor-pointer hover-lift smooth-transition"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
+              <div
+                className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden"
+              >
+                <img src="logo.jpeg" alt="Vishal Keys Logo" className="w-full h-full object-contain" />
+              </div>
+              <span className="text-lg md:text-xl font-bold text-white">
+                Vishal keys
+              </span>
+            </div>
+
+            <div className="hidden md:flex space-x-8">
+              {navItems.map((item) => (
+                <a
+                  key={item.id}
+                  href={item.path}
+                  onClick={(e) => {
+                    if (item.path.startsWith("/#")) {
+                      e.preventDefault();
+                      scrollToSection(item.id);
+                    }
+                  }}
+                  className={`text-gray-400 hover:text-white transition-colors duration-300 font-medium smooth-transition focus-outline ${
+                    activeSection === item.id ? "text-white font-bold" : ""
+                  }`}
+                >
+                  {item.label}
+                </a>
+              ))}
+            </div>
+
+            <div className="md:hidden">
+              <button
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                className="text-gray-400 hover:text-white transition-colors duration-300 focus-outline p-2"
+                aria-label={isMenuOpen ? "Close mobile menu" : "Open mobile menu"}
+              >
+                <i
+                  className={`fas ${
+                    isMenuOpen ? "fa-times" : "fa-bars"
+                  } text-2xl text-white`}
+                ></i>
+              </button>
+            </div>
+          </div>
+
+          {/* Mobile menu */}
+          <div
+            className={`md:hidden transition-all duration-300 ease-in-out ${
+              isMenuOpen
+                ? "max-h-96 opacity-100 py-4"
+                : "max-h-0 opacity-0 overflow-hidden"
+            }`}
+          >
+            {navItems.map((item) => (
+              <a
+                key={item.id}
+                href={item.path}
+                onClick={(e) => {
+                  if (item.path.startsWith("/#")) {
+                    e.preventDefault();
+                    scrollToSection(item.id);
+                  }
+                  setIsMenuOpen(false);
+                }}
+                className={`block w-full text-left px-4 py-3 text-gray-400 hover:text-white transition-colors duration-300 smooth-transition focus-outline ${
+                  activeSection === item.id ? "text-white font-bold bg-gray-800 rounded" : ""
+                }`}
+              >
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </nav>
+      </header>
+    );
+  }
+
+        function Hero() {
+            React.useEffect(() => {
+                // Create particles for the hero background
+                const particlesContainer = document.querySelector('.particles-container');
+                if (particlesContainer) {
+                    for (let i = 0; i < 15; i++) {
+                        const particle = document.createElement('div');
+                        particle.classList.add('particle');
+                        
+                        // Random size between 5 and 20px
+                        const size = Math.random() * 15 + 5;
+                        particle.style.width = `${size}px`;
+                        particle.style.height = `${size}px`;
+                        
+                        // Random position
+                        particle.style.left = `${Math.random() * 100}%`;
+                        particle.style.top = `${Math.random() * 100}%`;
+                        
+                        // Random animation delay
+                        particle.style.animationDelay = `${Math.random() * 15}s`;
+                        
+                        particlesContainer.appendChild(particle);
+                    }
+                }
+            }, []);
+
+            return (
+                <section id="home" className="min-h-screen flex items-center justify-center relative pt-16 hero-section" data-name="hero">
+                    <div className="absolute inset-0 z-0 bg-primary-bg">
+                        <div className="hero-bg-animation"></div>
+                        <div className="grid-animation"></div>
+                        <div className="particles-container"></div>
+                    </div>
+                    
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-20">
+                        <div className="space-y-6" data-aos="fade-up" data-aos-delay="200">
+                            <h1 className="text-4xl md:text-6xl font-bold hero-text text-balance">Vishal Keys</h1>
+                            <h2 className="text-lg md:text-xl text-gray-white font-light" data-aos="fade-up" data-aos-delay="200">
+                                Chennai's Trusted Locksmith & Security Experts
+                            </h2>
+                            
+                            <div className="hero-services-vertical" data-aos="fade-up" data-aos-delay="300">
+                                <div className="hero-service-item">
+                                    <i className="fas fa-key text-accent-color"></i>
+                                    <span className="font-medium">Key Duplication</span>
+                                </div>
+                                <div className="hero-service-item">
+                                    <i className="fas fa-unlock text-accent-color"></i>
+                                    <span className="font-medium">Lock Repair</span>
+                                </div>
+                                <div className="hero-service-item">
+                                    <i className="fas fa-car text-accent-color"></i>
+                                    <span className="font-medium">Car Key Services</span>
+                                </div>
+                                <div className="hero-service-item">
+                                    <i className="fas fa-fingerprint text-accent-color"></i>
+                                    <span className="font-medium">Smart Lock Solutions</span>
+                                </div>
+                                <div className="hero-service-item">
+                                    <i className="fas fa-phone text-accent-color"></i>
+                                    <span className="font-medium">24/7 Emergency Service</span>
+                                </div>
+                            </div>
+                            
+                            <p className="text-base text-white max-w-3xl mx-auto leading-relaxed text-balance" data-aos="fade-up" data-aos-delay="400">
+                                Experience the future of locksmith services with cutting-edge technology,
+                                professional expertise, and unmatched reliability for all your security needs in Chennai.
+                            </p>
+                            
+<div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6 mt-8" data-aos="fade-up" data-aos-delay="600">                                <a
+                                    href="#contact"
+                                    className="btn-primary px-8 py-4 rounded-full text-white font-semibold text-base smooth-transition hover-lift focus-outline"
+                                >
+                                    Get an Instant Quote
+                                </a>
+                                <a
+                                    href={`tel:${contactDetails.mobile}`}
+                                    className="btn-secondary px-8 py-4 rounded-full text-white font-semibold text-base smooth-transition hover-lift focus-outline"
+                                >
+                                    <i className="fas fa-phone-volume mr-2"></i>Call Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            );
+        }
+        
+        function About() {
+            return (
+                <section id="about" className="section-padding relative bg-secondary-bg section-bg" data-name="about">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div className="text-center mb-12" data-aos="fade-up">
+                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                                About <span className="gradient-title">Vishal Keys</span>
+                            </h2>
+                            <p className="text-base md:text-xl text-white max-w-3xl mx-auto leading-relaxed text-balance">
+                                Our commitment to excellence and innovation sets us apart in Chennai's locksmith industry.
+                            </p>
+                        </div>
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                            <div className="professional-card rounded-xl p-6 smooth-transition hover-lift" data-aos="fade-right">
+                                <h3 className="text-xl font-bold text-white mb-4">Our Story & Mission</h3>
+                                <div className="space-y-3 text-gray-400 text-sm">
+                                    <p>
+                                        Founded on the principles of trust, security, and innovation, Vishal Key Shop has been 
+                                        serving the Chennai community for over a decade.
+                                    </p>
+                                    <p>
+                                        We pride ourselves on staying ahead of technology trends, offering everything from 
+                                        traditional key cutting to smart lock programming and advanced security system installations.
+                                    </p>
+                                    <p>
+                                        Our mission is to provide reliable, affordable, and cutting-edge security solutions 
+                                        that give our customers peace of mind.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="grid grid-cols-1 gap-6">
+                                <div className="professional-card rounded-xl p-4 transition-all duration-300 smooth-transition hover-lift feature-card" data-aos="fade-left" data-aos-delay="0">
+                                    <div className="flex items-center space极3">
+                                        <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{background: 'linear-gradient(135deg, var(--accent-bright), var(--accent-color))'}}>
+                                            <i className="fas fa-shield-alt text-xl text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h4 className="text-lg font-bold text-white mb-1">Trusted Security</h4>
+                                            <p className="text-gray-400 text-sm">Years of experience providing reliable security solutions across Chennai.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="professional-card rounded-xl p-4 transition-all duration-300 smooth-transition hover-lift feature-card" data-aos="fade-left" data-aos-delay="100">
+                                    <div className="flex items-center space-x-3">
+                                        <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{background: 'linear-gradient(135deg, var(--accent-bright), var(--accent-color))'}}>
+                                            <i className="fas fa-bolt text-xl text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h4 className="text-lg font-bold text-white mb-1">24/7 Emergency Service</h4>
+                                            <p className="text-gray-400 text-sm">Our team is always on call for any lockout or emergency.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="professional-card rounded-xl p-4 transition-all duration-300 smooth-transition hover-lift feature-card" data-aos="fade-left" data-aos-delay="200">
+                                    <div className="flex items-center space-x-3">
+                                        <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{background: 'linear-gradient(135deg, var(--accent-bright), var(--accent-color))'}}>
+                                            <i className="fas fa-microchip text-xl text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h4 className="text-lg font-bold text-white mb-1">Advanced Technology</h4>
+                                            <p className="text-gray-400 text-sm">We use modern tools for precision key cutting and smart lock programming.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            );
+        }
+        
+        function Services() {
+            const services = [
+                { 
+                    icon: 'fa-key', 
+                    title: 'Key Duplication', 
+                    description: 'Precision key cutting for residential, commercial, and specialty keys using advanced machinery.',
+                    features: ['High-precision cutting', 'All key types', 'Quick service', 'Quality materials']
+                },
+                { 
+                    icon: 'fa-unlock', 
+                    title: 'Lock Repair & Installation', 
+                    description: 'Professional repair and installation services for all types of locks, from simple fixes to complete overhauls.',
+                    features: ['Expert technicians', 'Quality parts', 'Quick response', 'Warranty included']
+                },
+                { 
+                    icon: 'fa-car', 
+                    title: 'Car Key & Fob Services', 
+                    description: 'Advanced automotive key services including programming, replacement, and emergency solutions for all vehicle makes and models.',
+                    features: ['Key programming', 'Transponder keys', 'Remote fobs', 'Emergency lockout']
+                },
+                { 
+                    icon: 'fa-fingerprint', 
+                    title: 'Smart Lock Solutions', 
+                    description: 'Installation and setup of modern smart locks for enhanced security and convenience with keyless entry options.',
+                    features: ['Biometric access', 'Mobile control', 'Keyless entry', 'Smart home integration']
+                }
+            ];
+
+            return (
+                <section id="services" className="section-padding bg-secondary-bg section-bg" data-name="services">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div className="text-center mb-12" data-aos="fade-up">
+                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                                Our <span className="gradient-title">Services</span>
+                            </h2>
+                            <p className="text-base md:text-xl text-white max-w-3xl mx-auto text-balance">
+                                Comprehensive locksmith services powered by cutting-edge technology and expert craftsmanship
+                            </p>
+                        </div>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                            {services.map((service, index) => (
+                                <div key={index} className="professional-card rounded-xl p-6 group cursor-pointer flex flex-col items-center text-center smooth-transition hover-lift" data-aos="zoom-in" data-aos-delay={index * 100}>
+                                    <div className="w-16 h-16 rounded-xl flex items-center justify-center mb-4" style={{background: 'linear-gradient(135deg, var(--accent-bright), var(--accent-color))'}}>
+                                        <i className={`fas ${service.icon} text-2xl text-white`}></i>
+                                    </div>
+                                    <h3 className="text-lg font-bold text-white mb-2">{service.title}</h3>
+                                    <p className="text-gray-400 text-sm mb-4">{service.description}</p>
+                                    <div className="mt-auto w-full">
+                                        <div className="text-left mb-4">
+                                            <h4 className="font-semibold text-gray-300 text-sm mb-2">Key Features:</h4>
+                                            <ul className="text-xs text-gray-500 space-y-1">
+                                                {service.features.map((feature, i) => (
+                                                    <li key={i} className="flex items-center">
+                                                        <i className="fas fa-check-circle text-accent-color mr-2 text-xs"></i>
+                                                        {feature}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                        <a
+                                            href="#contact"
+                                            className="w-full btn-primary py-3 rounded-xl text-white font-semibold text-sm smooth-transition hover-lift focus-outline block text-center"
+                                        >
+                                            Get Quote
+                                        </a>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                       <div className="mt-12 professional-card p-6 text-center group cursor-pointer smooth-transition hover-lift service-highlight" data-aos="fade-up">
+    <h3 className="text-2xl font-bold text-white mb-2">24/7 Emergency Locksmith Service</h3>
+    <p className="text-gray-300 mb-4 text-base">Locked out? Need immediate assistance? Our emergency team is available round the clock to help you.</p>
+    <a href={`tel:${contactDetails.mobile}`} className="btn-primary px-8 py-4 rounded-full text-white font-semibold text-base smooth-transition hover-lift focus-outline">
+        <i className="fas fa-phone-volume mr-2"></i>Call Emergency Service
+    </a>
+</div>
+</div>
+</section>
+);
+        }
+        
+        function WhyChooseUs() {
+            const reasons = [
+                { icon: 'fa-wallet', title: 'Transparent Pricing', description: 'No hidden fees or surprise charges. We provide clear, upfront quotes before any work begins.' },
+                { icon: 'fa-bolt', title: 'Fast & Reliable', description: 'Our mobile units are equipped to handle emergencies and regular appointments with speed and efficiency.' },
+                { icon: 'fa-award', title: 'Certified Professionals', description: 'All our locksmiths are certified, trained, and background-checked for your peace of mind.' },
+                { icon: 'fa-handshake-alt', title: 'Satisfaction Guaranteed', description: 'We stand by our work. If you are not satisfied, we will make it right.' }
+            ];
+
+            return (
+                <section id="why-choose-us" className="section-padding bg-primary-bg section-bg" data-name="why-choose-us">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div className="text-center mb-12" data-aos="fade-up">
+                            <h2 className="极xt-3xl md:text-4xl font-bold text-white mb-4">
+                                Why <span className="gradient-title">Choose Us</span>?
+                            </h2>
+                            <p className="text-base md:text-xl text-white max-w-3xl mx-auto text-balance">
+                                Experience the difference that expertise, technology, and trust can make.
+                            </p>
+                        </div>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                            {reasons.map((reason, index) => (
+                                <div key={index} className="professional-card rounded-xl p-6 flex flex-col items-center text-center smooth-transition hover-lift" data-aos="fade-up" data-aos-delay={index * 100}>
+                                    <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{background: 'linear-gradient(135deg, var(--accent-bright), var(--accent-color))'}}>
+                                        <i className={`fas ${reason.icon} text-2xl text-white`}></i>
+                                    </div>
+                                    <h3 className="text-lg font-bold text-white mb-2">{reason.title}</h3>
+                                    <p className="text-gray-400 text-sm">{reason.description}</p>
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* Stats Section */}
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
+                            <div className="text-center stats-highlight p-6 smooth-transition hover-lift stat-item" data-aos="fade-up" data-aos-delay="0">
+                                <div className="stat-number">5000+</div>
+                                <p className="text-gray-300 text-sm">Happy Customers</p>
+                            </div>
+                            <div className="text-center stats-highlight p-6 smooth-transition hover-lift stat-item" data-aos="fade-up" data-aos-delay="100">
+                                <div className="stat-number">15+</div>
+                                <p className="text-gray-300 text-sm">Years Experience</p>
+                            </div>
+                            <div className="text-center stats-highlight p-6 smooth-transition hover-lift stat-item" data-aos="fade-up" data-aos-delay="200">
+                                <div className="stat-number">24/7</div>
+                                <p className="text-gray-300 text-sm">Emergency Service</p>
+                            </div>
+                            <div className="text-center stats-highlight p-6 smooth-transition hover-lift stat-item" data-aos="fade-up" data-aos-delay="300">
+                                <div className="stat-number">100%</div>
+                                <p className="text-gray-300 text-sm">Satisfaction Guarantee</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            );
+        }
+        
+        function Testimonials() {
+            const testimonials = [
+                { name: "Rajesh Kumar", role: "Business Owner, T. Nagar", rating: 5, text: "Exceptional service! They quickly re-keyed all the locks for my new shop and even provided a modern master key system. Very professional and trustworthy." },
+                { name: "Anjali Sharma", role: "Homeowner, Adyar", rating: 5, text: "I was locked out of my apartment late at night. Vishal Key Shop's emergency service arrived in under 30 minutes. The technician was fast, polite, and very efficient. Lifesaver!" },
+                { name: "Karthik Menon", role: "Car Owner, Velachery", rating: 5, text: "I lost my car's smart key, and the dealership quote was outrageous. Vishal Key Shop made a perfect new key and programmed it for a fraction of the cost. Highly recommend!" },
+                { name: "Priya Rajan", role: "Property Manager, OMR", rating: 5, text: "We rely on Vishal Key Shop for all our property management needs. Their key duplication and lock maintenance services are always on point and reliable. A fantastic team to work with." },
+                { name: "Suresh Gupta", role: "Restaurant Owner, Anna Nagar", rating: 5, text: "We needed our restaurant's security upgraded with digital keypad locks. The team was knowledgeable, the installation was seamless, and their pricing was very competitive." },
+                { name: "Aisha Khan", role: "Resident, Nungambakkam", rating: 5, text: "My old lock was jammed, and I couldn't open my front door. The technician fixed it perfectly without causing any damage. Great service and a very fair price." }
+            ];
+
+            const renderStars = (rating) => {
+                return Array.from({ length: 5 }, (_, i) => (
+                    <i key={i} className={`fas fa-star text-sm ${i < rating ? 'text-yellow-400' : 'text-gray-600'}`}></i>
+                ));
+            };
+
+            return (
+                <section id="testimonials" className="section-padding overflow-hidden bg-primary-bg section-bg" data-name="testimonials">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+                        <div className="text-center" data-aos="fade-up">
+                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                                What Our <span className="gradient-title">Clients Say</span>
+                            </h2>
+                            <p className="text-xl text-gray-400极 max-w-3xl mx-auto text-balance">
+                                Don't just take our word for it. Here's what our satisfied customers in Chennai have to say about our services.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="relative">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {testimonials.map((testimonial, index) => (
+                                <div key={index} className="professional-card rounded-xl p-6 hover:scale-100 transition-all duration-300 cursor-pointer smooth-transition testimonial-card" data-aos="fade-up" data-aos-delay={index * 100}>
+                                    <div className="mb-4">
+                                        <h4 className="font-bold text-white">{testimonial.name}</h4>
+                                        <p className="text-gray-400 text-sm">{testimonial.role}</p>
+                                    </div>
+                                    
+                                    <div className="flex mb-4">
+                                        {renderStars(testimonial.rating)}
+                                    </div>
+                                    
+                                    <p className="text-gray-400 leading-relaxed">"{testimonial.text}"</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            );
+        }
+        
+        function Contact({ serviceType = 'general' }) {
+            const [formData, setFormData] = React.useState({
+                name: '', email: '', phone: '', service: serviceType === 'general' ? '' : serviceType, message: ''
+            });
+            const [isSubmitting, setIsSubmitting] = React.useState(false);
+            const [submitMessage, setSubmitMessage] = React.useState('');
+
+            const handleInputChange = (e) => {
+                const { name, value } = e.target;
+                setFormData(prev => ({ ...prev, [name]: value }));
+            };
+
+            const handleSubmit = async (e) => {
+                e.preventDefault();
+                setIsSubmitting(true);
+                setTimeout(() => {
+                    setSubmitMessage('Thank you! We\'ll get back to you soon.');
+                    setFormData({ name: '', email: '', phone: '', service: serviceType === 'general' ? '' : serviceType, message: '' });
+                    setIsSubmitting(false);
+                }, 1500);
+            };
+
+            return (
+                <section id="contact" className="section-padding bg-primary-bg section-bg" data-name="contact">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div className="text-center mb-12" data-aos="fade-up">
+                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                                Get In <span className="gradient-title">Touch</span>
+                            </h2>
+                            <p className="text-base md:text-xl text-white max-w-3xl mx-auto text-balance">
+                                Ready to secure your property in Chennai? Contact us for expert locksmith services.
+                            </p>
+                        </div>
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                            <div className="professional-card p-6 smooth-transition hover-lift" data-aos="fade-right">
+                                <h3 className="text-xl font-bold text-white mb-4">Send Us a Message</h3>
+                                {submitMessage && (
+                                    <div className="mb-4 p-3 bg-green-900 border border-green-700 rounded-lg text-green-300 text-sm">
+                                        {submitMessage}
+                                    </div>
+                                )}
+                                <form onSubmit={handleSubmit} className="space-y-4">
+                                    <div>
+                                        <label htmlFor="name" className="block text-gray-300 font-medium text-sm mb-1">Name</label>
+                                        <input type="text" id="name" name="name" value={formData.name} onChange={handleInputChange} required className="w-full px-4 py-3 border border-gray-700 rounded-lg bg-secondary-bg text-white text-sm focus:outline-none focus:ring-2 focus:ring-accent-color focus-outline" placeholder="Your full name" />
+                                    </div>
+                                    <div>
+                                        <label htmlFor="email" className="block text-gray-300 font-medium text-sm mb-1">Email</label>
+                                        <input type="email" id="email" name="email" value={formData.email} onChange={handleInputChange} required className="w-full px-4 py-3 border border-gray-700 rounded-lg bg-secondary-bg text-white text-sm focus:outline-none focus:ring-2 focus:ring-accent-color focus-outline" placeholder="your@email.com" />
+                                    </div>
+                                    <div>
+                                        <label htmlFor="phone" className="block text-gray-300 font-medium text-sm mb-1">Phone Number</label>
+                                        <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleInputChange} required className="w-full px-4 py-3 border border-gray-700 rounded-lg bg-secondary-bg text-white text-sm focus:outline-none focus:ring-2 focus:ring-accent-color focus-outline" placeholder="+91 98765 43210" />
+                                    </div>
+                                    <div>
+                                        <label htmlFor="service" className="block text-gray-300 font-medium text-sm mb-1">Service Needed</label>
+                                        <select id="service" name="service" value={formData.service} onChange={handleInputChange} className="w-full px-4 py-3 border border-gray-700 rounded-lg bg-secondary-bg text-white text-sm focus:outline-none focus:ring-2 focus:ring-accent-color focus-outline">
+                                            <option value="">Select a service (Optional)</option>
+                                            <option value="Key Duplication">Key Duplication</option>
+                                            <option value="Lock Repair & Installation">Lock Repair & Installation</option>
+                                            <option value="Car Key & Fob Services">Car Key & Fob Services</option>
+                                            <option value="Smart Lock Solutions">Smart Lock Solutions</option>
+                                            <option value="Emergency Locksmith">Emergency Locksmith</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label htmlFor="message" className="block text-gray-300 font-medium text-sm mb-1">Message</label>
+                                        <textarea id="message" name="message" value={formData.message} onChange={handleInputChange} required rows="4" className="w-full px-4 py-3 border border-gray-700 rounded-lg bg-secondary-bg text-white text-sm focus:outline-none focus:ring-2 focus:ring-accent-color focus-outline resize-none" placeholder="Describe your locksmith needs..."></textarea>
+                                    </div>
+                                    <button type="submit" disabled={isSubmitting} className="w-full btn-primary py-3 rounded-lg text-white font-semibold text-sm disabled:opacity-50 flex items-center justify-center smooth-transition hover-lift focus-outline">
+                                        {isSubmitting ? (<><span className="loading-spinner mr-2"></span>Sending...</>) : 'Send Message'}
+                                    </button>
+                                </form>
+                            </div>
+                           <div className="space-y-4">
+    <div className="contact-item" data-aos="fade-left" data-aos-delay="100">
+        <div className="contact-icon-wrapper" style={{background: 'linear-gradient(135deg, #EF4444, #DC2626)'}}>
+            <i className="fas fa-map-marker-alt text-xl text-white"></i>
+        </div>
+        <div>
+            <h4 className="text-lg font-bold text-white mb-1">Location</h4>
+            <p className="text-white text-sm">{contactDetails.address}</p>
+        </div>
+    </div>
+    
+    <div className="contact-item" data-aos="fade-left" data-aos-delay="200">
+        <div className="contact-icon-wrapper" style={{background: 'linear-gradient(135deg, #3B82F6, #2563EB)'}}>
+            <i className="fas fa-phone text-xl text-white"></i>
+        </div>
+        <div>
+            <h4 className="text-lg font-bold text-white mb-1">Phone</h4>
+            <p className="text-white text-sm">{contactDetails.mobile}</p>
+            <p className="text-white text-sm">{contactDetails.mobile2}</p>
+        </div>
+    </div>
+    
+    <div className="contact-item" data-aos="fade-left" data-aos-delay="300">
+        <div className="contact-icon-wrapper" style={{background: 'linear-gradient(135deg, #10B981, #059669)'}}>
+            <i className="fas fa-envelope text-xl text-white"></i>
+        </div>
+        <div>
+            <h4 className="text-lg font-bold text-white mb-1">Email</h4>
+            <p className="text-white text-sm">{contactDetails.email}</p>
+        </div>
+    </div>
+    
+    <div className="map-wrapper" data-aos="fade-left" data-aos-delay="400">
+        <div className="text-center text-gray-400 mb-2">
+            <h4 className="font-semibold text-white">Our Location</h4>
+        </div>
+        <div className="map-container flex-grow relative">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.602167448208!2d80.20338787595603!3d13.064235813353597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52665e3176b6b7%3A0x772d12e8c205b38d!2sVishal%20Key%20Shop!5e0!3m2!1sen!2sin!4v1700676451000!5m2!1sen!2sin"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-lg group-hover:scale-100 transition-transform duration-500"
+                title="Google Map showing Vishal Key Shop location"
+            ></iframe>
+        </div>
+    </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            );
+        }
+        
+        function Footer() {
+            const currentYear = new Date().getFullYear();
+            const quickLinks = [
+                { label: 'Home', section: 'home', path: '/' },
+                { label: 'About', section: 'about', path: '/#about' },
+                { label: 'Services', section: 'services', path: '/#极ervices' },
+                { label: 'Contact', section: 'contact', path: '/#contact' }
+            ];
+
+            const services = ['Key Duplication', 'Lock Repair', 'Car Keys', 'Smart Locks', 'Emergency Service'];
+
+            const scrollToSection = (sectionId) => {
+                const element = document.getElementById(sectionId);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }
+            };
+
+            return (
+                <footer className="py-12 professional-card mx-4 mb-4" data-name="footer">
+                    <div className="max-w-7xl极 mx-auto px-4 sm:px-6 lg:px-8">
+                        <div className="grid grid-cols-1 sm:grid极ols-2 lg:grid-cols-4 gap-8 mb-8">
+                            <div className="space-y-3">
+                                <div className="flex items-center space-x-2">
+                                    <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{background: 'linear-gradient(135deg, var(--accent-bright), var(--accent-color))'}}>
+                                        <i className="fas fa-key text-lg text-white"></i>
+                                    </div>
+                                    <span className="text-lg font-bold text-white">Vishal Keys</span>
+                                </div>
+                                <p className="text-gray-400 text-sm">
+                                    Your trusted partner for all locksmith and security needs in Chennai.
+                                </p>
+                                <div className="flex space-x-3">
+                                    <a href={`https://wa.me/${contactDetails.whatsapp}`} className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-green-900 smooth-transition">
+                                        <i className="fab fa-whatsapp text-green-400"></i>
+                                    </a>
+                                    <a href={`tel:${contactDetails.mobile}`} className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-900 smooth-transition">
+                                        <i className="fas fa-phone text-blue-400"></i>
+                                    </a>
+                                    <a href={`mailto:${contactDetails.email}`} className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-red-900 smooth-transition">
+                                        <i className="fas fa-envelope text-red-400"></i>
+                                    </a>
+                                    <a href={contactDetails.instagram} target="_blank" className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-900 smooth-transition">
+                                        <i className="fab fa-instagram text-pink-400"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 className="text-base font-bold text-white mb-3">Quick Links</h4>
+                                <ul className="space-y-1 text-sm">
+                                    {quickLinks.map((link, index) => (
+                                        <li key={index}>
+                                            <a href={link.path} onClick={(e) => {
+                                                if (link.path.startsWith('/#')) { e.preventDefault(); scrollToSection(link.section); }
+                                            }} className="text-gray-400 hover:text-white smooth-transition">
+                                                {link.label}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 className="text-base font-bold text-white mb-3">Services</h4>
+                                <ul className="space-y-1 text-sm">
+                                    {services.map((service, index) => (
+                                        <li key={index} className="text-gray-400">{service}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 className="text-base font-bold text-white mb-3">Contact</h4>
+                                <div className="space-y-1 text-sm text-gray-400">
+                                    <p>{contactDetails.address}</p>
+                                    <a href={`tel:${contactDetails.mobile}`} className="hover:text-white block smooth-transition">{contactDetails.mobile}</a>
+                                    <a href={`tel:${contactDetails.mobile2}`} className="hover:text-white block smooth-transition">{contactDetails.mobile2}</a>
+                                    <a href={`mailto:${contactDetails.email}`} className="hover:text-white block smooth-transition">{contactDetails.email}</a>
+                                     {/* Add this line for the Zapsters credit */}
+    <div className="mt-4 pt-4 border-t border-gray-700 text-xs text-center">
+        <span className="flex items-center justify-center">
+             <i className="fas fa-heart text-red-500 mx-1"></i> Proudly made by Zapsters
+        </span>
+    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="border-t border-gray-700 pt-6 text-center text-sm text-gray-500">
+                            <p>© {currentYear} Vishal Keys. All rights reserved.</p>
+                        </div>
+                    </div>
+                </footer>
+            );
+        }
+
+        function App() {
+            const [activeSection, setActiveSection] = React.useState('home');
+            const [currentPage, setCurrentPage] = React.useState(window.location.pathname);
+
+            React.useEffect(() => {
+                createCyberBackground();
+                
+                const handleScroll = () => {
+                    if (currentPage !== '/' && currentPage !== '/index.html') return;
+                    const sections = ['home', 'about', 'services', 'testimonials', 'contact'];
+                    const scrollPosition = window.scrollY + 100;
+                    sections.forEach(section => {
+                        const element = document.getElementById(section);
+                        if (element) {
+                            const { offsetTop, offsetHeight } = element;
+                            if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+                                setActiveSection(section);
+                            }
+                        }
+                    });
+                };
+                const handlePopState = () => {
+                    setCurrentPage(window.location.pathname);
+                    AOS.refreshHard();
+                };
+                window.addEventListener('scroll', handleScroll);
+                window.addEventListener('popstate', handlePopState);
+                AOS.init({ 
+                    duration: 800, 
+                    once: true,
+                    offset: 100
+                });
+                if (window.location.hash) {
+                    const id = window.location.hash.substring(1);
+                    if (document.getElementById(id)) {
+                        setActiveSection(id);
+                    }
+                }
+                setCurrentPage(window.location.pathname);
+                return () => {
+                    window.removeEventListener('scroll', handleScroll);
+                    window.removeEventListener('popstate', handlePopState);
+                };
+            }, [currentPage]);
+
+            return (
+                <div className="min-h-screen">
+                    <Header activeSection={activeSection} />
+                    <Hero />
+                    <About />
+                    <WhyChooseUs />
+                    <Services />
+                    <Testimonials />
+                    <Contact />
+                    <Footer />
+                </div>
+            );
+        }
+
+        const navigate = (path) => {
+            window.history.pushState(null, '', path);
+            ReactDOM.createRoot(document.getElementById('root')).render(<ErrorBoundary><App /></ErrorBoundary>);
+        };
+
+        document.addEventListener('click', (e) => {
+            const target = e.target.closest('a');
+            if (target && target.origin === window.location.origin && !target.hash && !target.target) {
+                e.preventDefault();
+                navigate(target.pathname);
+            }
+        });
+
+        ReactDOM.createRoot(document.getElementById('root')).render(<ErrorBoundary><App /></ErrorBoundary>);
+    </script>
+</body>
+</html>
